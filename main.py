@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st
-a = pd.read_csv('./app/beer/main/beer_profile_and_ratings.csv')
+a = pd.read_csv('/app/beer/main/beer_profile_and_ratings.csv')
 a = pd.DataFrame(a.iloc[:,[1,3,5,6,7,-3]])
 # 1스타일, 3맥주이름, 5ABV, 6minIBU,7MaxIBU
 
